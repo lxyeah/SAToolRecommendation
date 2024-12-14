@@ -3,6 +3,7 @@
 该项目旨在为给定的软件工程项目推荐最合适的静态分析工具。通过对多个静态分析工具（如 SpotBugs、SonarQube 和 PMD）进行扫描并结合项目特征，生成训练数据集，最终基于机器学习模型推荐最优的工具。
 
 ## 项目结构  
+```
 SAToolRecommendation  
 ├── dataset  
 │   └── train_data  # 用于模型训练的数据集  
@@ -19,7 +20,7 @@ SAToolRecommendation
 └── type_uniform  # 警告类型统一映射  
     ├── tables  # 各种静态分析工具警告类型的映射表  
     └── uniform  # 各工具警告类型的统一格式   
-
+```
 
 ## 文件夹描述
 
