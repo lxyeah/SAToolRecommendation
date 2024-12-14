@@ -2,23 +2,23 @@
 
 该项目旨在为给定的软件工程项目推荐最合适的静态分析工具。通过对多个静态分析工具（如 SpotBugs、SonarQube 和 PMD）进行扫描并结合项目特征，生成训练数据集，最终基于机器学习模型推荐最优的工具。
 
-## 项目结构
-SAToolRecommendation
-├── dataset 
-│ └── train_data # 用于模型训练的数据集 
-├── src # 源代码文件夹 
-│ ├── collect_datas # 获取项目和版本信息的模块 
-│ ├── data_process # 数据处理和特征提取模块
-│ ├── get_findbugs_res # 获取 SpotBugs 扫描结果 
-│ ├── get_pmd_res # 获取 PMD 扫描结果 
-│ ├── get_revision # 获取项目版本信息 
-│ ├── get_sonarqube_res # 获取 SonarQube 扫描结果 
-│ ├── get_type_uniform # 工具警告统一映射 
-│ ├── model_training # 模型训练及特征选择模块 
-│ └── utils # 实用工具类 
-└── type_uniform # 警告类型统一映射 
-    ├── tables # 各种静态分析工具警告类型的映射表 
-    └── uniform # 各工具警告类型的统一格式
+## 项目结构  
+SAToolRecommendation  
+├── dataset  
+│   └── train_data  # 用于模型训练的数据集  
+├── src  # 源代码文件夹  
+│   ├── collect_datas  # 获取项目和版本信息的模块  
+│   ├── data_process  # 数据处理和特征提取模块  
+│   ├── get_findbugs_res  # 获取 SpotBugs 扫描结果  
+│   ├── get_pmd_res  # 获取 PMD 扫描结果  
+│   ├── get_revision  # 获取项目版本信息  
+│   ├── get_sonarqube_res  # 获取 SonarQube 扫描结果  
+│   ├── get_type_uniform  # 工具警告统一映射  
+│   ├── model_training  # 模型训练及特征选择模块  
+│   └── utils  # 实用工具类  
+└── type_uniform  # 警告类型统一映射  
+    ├── tables  # 各种静态分析工具警告类型的映射表  
+    └── uniform  # 各工具警告类型的统一格式   
 
 
 ## 文件夹描述
@@ -47,7 +47,7 @@ SAToolRecommendation
    从 `repo_tag.list` 文件中列出的 Git 仓库中拉取项目，并获取指定版本的代码。
 
 2. **执行静态分析工具**  
-   使用 `SonarQube`、`SpotBugs`、`PMD`、`SonarQube` 等静态分析工具扫描项目，收集各工具的扫描报告。
+   使用 `SpotBugs`、`PMD`、`SonarQube` 等静态分析工具扫描项目，收集各工具的扫描报告。
 
 3. **提取项目特征**  
    使用 `understand` 工具从项目中提取软件工程特征，并将这些特征处理为结构化数据。
