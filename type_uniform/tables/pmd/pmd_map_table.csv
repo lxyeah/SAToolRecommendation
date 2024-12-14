@@ -1,0 +1,331 @@
+Rule name,Classification
+android.xml,Best Practices
+android.xml/CallSuperFirst,Best Practices
+android.xml/CallSuperLast,Best Practices
+android.xml/DoNotHardCodeSDCard,Best Practices
+basic.xml,Multiple
+basic.xml/AvoidBranchingStatementAsLastInLoop,Logic
+basic.xml/AvoidDecimalLiteralsInBigDecimalConstructor,Resource
+basic.xml/AvoidMultipleUnaryOperators,Logic
+basic.xml/AvoidThreadGroup,Concurrency
+basic.xml/AvoidUsingHardCodedIP,Best Practices
+basic.xml/AvoidUsingOctalValues,Resource
+basic.xml/BigIntegerInstantiation,Best Practices
+basic.xml/BooleanInstantiation,Refactorings - Simplifications
+basic.xml/BrokenNullCheck,Logic
+basic.xml/CheckResultSet,Check
+basic.xml/CheckSkipResult,Check
+basic.xml/ClassCastExceptionWithToArray,Interface
+basic.xml/CollapsibleIfStatements,Refactorings - Simplifications
+basic.xml/DontCallThreadRun,Concurrency
+basic.xml/DontUseFloatTypeForLoopIndices,Resource
+basic.xml/DoubleCheckedLocking,Concurrency
+basic.xml/EmptyCatchBlock,Refactorings - Redundancies
+basic.xml/EmptyFinallyBlock,Refactorings - Redundancies
+basic.xml/EmptyIfStmt,Refactorings - Redundancies
+basic.xml/EmptyInitializer,Refactorings - Redundancies
+basic.xml/EmptyStatementBlock,Refactorings - Redundancies
+basic.xml/EmptyStatementNotInLoop,Refactorings - Redundancies
+basic.xml/EmptyStaticInitializer,Refactorings - Redundancies
+basic.xml/EmptySwitchStatements,Refactorings - Redundancies
+basic.xml/EmptySynchronizedBlock,Refactorings - Redundancies
+basic.xml/EmptyTryBlock,Refactorings - Redundancies
+basic.xml/EmptyWhileStmt,Refactorings - Redundancies
+basic.xml/ExtendsObject,Object Oriented Design
+basic.xml/ForLoopShouldBeWhileLoop,Refactorings - Simplifications
+basic.xml/JumbledIncrementer,Logic
+basic.xml/MisplacedNullCheck,Logic
+basic.xml/OverrideBothEqualsAndHashcode,Interface
+basic.xml/ReturnFromFinallyBlock,Error Handling
+basic.xml/UnconditionalIfStatement,Refactorings - Redundancies
+basic.xml/UnnecessaryConversionTemporary,Refactorings - Redundancies
+basic.xml/UnnecessaryFinalModifier,Refactorings - Redundancies
+basic.xml/UnnecessaryReturn,Refactorings - Redundancies
+basic.xml/UnusedNullCheckInEquals,Logic
+basic.xml/UselessOperationOnImmutable,Refactorings - Redundancies
+basic.xml/UselessOverridingMethod,Refactorings - Redundancies
+basic.xml/UselessParentheses,Refactorings - Redundancies
+braces.xml,Style Conventions
+braces.xml/ForLoopsMustUseBraces,Style Conventions
+braces.xml/IfElseStmtsMustUseBraces,Style Conventions
+braces.xml/IfStmtsMustUseBraces,Style Conventions
+braces.xml/WhileLoopsMustUseBraces,Style Conventions
+clone.xml,Interface
+clone.xml/CloneMethodMustImplementCloneable,Interface
+clone.xml/CloneThrowsCloneNotSupportedException,Interface
+clone.xml/ProperCloneImplementation,Interface
+codesize.xml,Metric
+codesize.xml/CyclomaticComplexity,Metric
+codesize.xml/ExcessiveClassLength,Metric
+codesize.xml/ExcessiveMethodLength,Metric
+codesize.xml/ExcessiveParameterList,Metric
+codesize.xml/ExcessivePublicCount,Metric
+codesize.xml/ModifiedCyclomaticComplexity,Metric
+codesize.xml/NcssConstructorCount,Metric
+codesize.xml/NcssMethodCount,Metric
+codesize.xml/NcssTypeCount,Metric
+codesize.xml/NPathComplexity,Metric
+codesize.xml/StdCyclomaticComplexity,Metric
+codesize.xml/TooManyFields,Metric
+codesize.xml/TooManyMethods,Metric
+comments.xml,Documentation Conventions
+comments.xml/CommentContent,Documentation Conventions
+comments.xml/CommentRequired,Documentation Conventions
+comments.xml/CommentSize,Metric
+controversial.xml,Multiple
+controversial.xml/AssignmentInOperand,Best Practices
+controversial.xml/AtLeastOneConstructor,Interface
+controversial.xml/AvoidAccessibilityAlteration,Object Oriented Design
+controversial.xml/AvoidFinalLocalVariable,Best Practices
+controversial.xml/AvoidLiteralsInIfCondition,Best Practices
+controversial.xml/AvoidPrefixingMethodParameters,Naming Conventions
+controversial.xml/AvoidUsingNativeCode,Best Practices
+controversial.xml/AvoidUsingShortType,Best Practices
+controversial.xml/AvoidUsingVolatile,Best Practices
+controversial.xml/BooleanInversion,Best Practices
+controversial.xml/CallSuperInConstructor,Object Oriented Design
+controversial.xml/DataflowAnomalyAnalysis,Resource
+controversial.xml/DefaultPackage,Object Oriented Design
+controversial.xml/DoNotCallGarbageCollectionExplicitly,Best Practices
+controversial.xml/DontImportSun,Code Structure
+controversial.xml/NullAssignment,Refactorings - Redundancies
+controversial.xml/OneDeclarationPerLine,Best Practices
+controversial.xml/OnlyOneReturn,Best Practices
+controversial.xml/SuspiciousOctalEscape,Logic
+controversial.xml/UnnecessaryConstructor,Refactorings - Redundancies
+controversial.xml/UnnecessaryParentheses,Refactorings - Redundancies
+controversial.xml/UseConcurrentHashMap,Concurrency
+controversial.xml/UseObjectForClearerAPI,Object Oriented Design
+coupling.xml,Multiple
+coupling.xml/CouplingBetweenObjects,Metric
+coupling.xml/ExcessiveImports,Metric
+coupling.xml/LawOfDemeter,Object Oriented Design
+coupling.xml/LooseCoupling,Object Oriented Design
+coupling.xml/LoosePackageCoupling,Object Oriented Design
+design.xml,Multiple
+design.xml/AbstractClassWithoutAbstractMethod,Interface
+design.xml/AbstractClassWithoutAnyMethod,Interface
+design.xml/AccessorClassGeneration,Interface
+design.xml/AssignmentToNonFinalStatic,Resource
+design.xml/AvoidConstantsInterface,Object Oriented Design
+design.xml/AvoidDeeplyNestedIfStmts,Metric
+design.xml/AvoidInstanceofChecksInCatchClause,Error Handling
+design.xml/AvoidProtectedFieldInFinalClass,Object Oriented Design
+design.xml/AvoidProtectedMethodInFinalClassNotExtending,Object Oriented Design
+design.xml/AvoidReassigningParameters,Best Practices
+design.xml/AvoidSynchronizedAtMethodLevel,Concurrency
+design.xml/BadComparison,Logic
+design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal,Best Practices
+design.xml/CloseResource,Resource
+design.xml/CompareObjectsWithEquals,Logic
+design.xml/ConfusingTernary,Best Practices
+design.xml/ConstructorCallsOverridableMethod,Interface
+design.xml/DefaultLabelNotLastInSwitchStmt,Best Practices
+design.xml/EmptyMethodInAbstractClassShouldBeAbstract,Interface
+design.xml/EqualsNull,Logic
+design.xml/FieldDeclarationsShouldBeAtStartOfClass,Best Practices
+design.xml/FinalFieldCouldBeStatic,Best Practices
+design.xml/GodClass,Metric
+design.xml/IdempotentOperations,Refactorings - Redundancies
+design.xml/ImmutableField,Best Practices
+design.xml/InstantiationToGetClass,Object Oriented Design
+design.xml/LogicInversion,Refactorings - Simplifications
+design.xml/MissingBreakInSwitch,Logic
+design.xml/MissingStaticMethodInNonInstantiatableClass,Interface
+design.xml/NonCaseLabelInSwitchStatement,Logic
+design.xml/NonStaticInitializer,Interface
+design.xml/NonThreadSafeSingleton,Concurrency
+design.xml/OptimizableToArrayCall,Best Practices
+design.xml/PositionLiteralsFirstInCaseInsensitiveComparisons,Logic
+design.xml/PositionLiteralsFirstInComparisons,Logic
+design.xml/PreserveStackTrace,Error Handling
+design.xml/ReturnEmptyArrayRatherThanNull,Best Practices
+design.xml/SimpleDateFormatNeedsLocale,Interface
+design.xml/SimplifyBooleanExpressions,Refactorings - Simplifications
+design.xml/SimplifyBooleanReturns,Refactorings - Simplifications
+design.xml/SimplifyConditional,Refactorings - Simplifications
+design.xml/SingularField,Best Practices
+design.xml/SwitchDensity,Metric
+design.xml/SwitchStmtsShouldHaveDefault,Logic
+design.xml/TooFewBranchesForASwitchStatement,Metric
+design.xml/UncommentedEmptyConstructor,Refactorings - Redundancies
+design.xml/UncommentedEmptyMethod,Refactorings - Redundancies
+design.xml/UncommentedEmptyMethodBody,Refactorings - Redundancies
+design.xml/UnnecessaryLocalBeforeReturn,Refactorings - Redundancies
+design.xml/UnsynchronizedStaticDateFormatter,Concurrency
+design.xml/UseCollectionIsEmpty,Best Practices
+design.xml/UseLocaleWithCaseConversions,Interface
+design.xml/UseNotifyAllInsteadOfNotify,Concurrency
+design.xml/UseUtilityClass,Object Oriented Design
+design.xml/UseVarargs,Best Practices
+empty.xml,Refactorings - Redundancies
+empty.xml/EmptyCatchBlock,Refactorings - Redundancies
+empty.xml/EmptyFinallyBlock,Refactorings - Redundancies
+empty.xml/EmptyIfStmt,Refactorings - Redundancies
+empty.xml/EmptyInitializer,Refactorings - Redundancies
+empty.xml/EmptyStatementBlock,Refactorings - Redundancies
+empty.xml/EmptyStatementNotInLoop,Refactorings - Redundancies
+empty.xml/EmptyStaticInitializer,Refactorings - Redundancies
+empty.xml/EmptySwitchStatements,Refactorings - Redundancies
+empty.xml/EmptySynchronizedBlock,Refactorings - Redundancies
+empty.xml/EmptyTryBlock,Refactorings - Redundancies
+empty.xml/EmptyWhileStmt,Refactorings - Redundancies
+finalizers.xml,Multiple
+finalizers.xml/AvoidCallingFinalize,Resource
+finalizers.xml/EmptyFinalizer,Refactorings - Redundancies
+finalizers.xml/FinalizeDoesNotCallSuperFinalize,Interface
+finalizers.xml/FinalizeOnlyCallsSuperFinalize,Refactorings - Redundancies
+finalizers.xml/FinalizeOverloaded,Interface
+finalizers.xml/FinalizeShouldBeProtected,Interface
+imports.xml,Multiple
+imports.xml/DontImportJavaLang,Code Structure
+imports.xml/DuplicateImports,Refactorings - Redundancies
+imports.xml/ImportFromSamePackage,Refactorings - Redundancies
+imports.xml/TooManyStaticImports,Code Structure
+imports.xml/UnnecessaryFullyQualifiedName,Best Practices
+imports.xml/UnusedImports,Refactorings - Redundancies
+j2ee.xml,Multiple
+j2ee.xml/DoNotCallSystemExit,Best Practices
+j2ee.xml/DoNotUseThreads,Concurrency
+j2ee.xml/LocalHomeNamingConvention,Naming Conventions
+j2ee.xml/LocalInterfaceSessionNamingConvention,Naming Conventions
+j2ee.xml/MDBAndSessionBeanNamingConvention,Naming Conventions
+j2ee.xml/RemoteInterfaceNamingConvention,Naming Conventions
+j2ee.xml/RemoteSessionInterfaceNamingConvention,Naming Conventions
+j2ee.xml/StaticEJBFieldShouldBeFinal,Best Practices
+j2ee.xml/UseProperClassLoader,Concurrency
+javabeans.xml,Best Practices
+javabeans.xml/BeanMembersShouldSerialize,Best Practices
+javabeans.xml/MissingSerialVersionUID,Best Practices
+junit.xml,Multiple
+junit.xml/JUnitAssertionsShouldIncludeMessage,Best Practices
+junit.xml/JUnitSpelling,Naming Conventions
+junit.xml/JUnitStaticSuite,Best Practices
+junit.xml/JUnitTestContainsTooManyAsserts,Best Practices
+junit.xml/JUnitTestsShouldIncludeAssert,Best Practices
+junit.xml/SimplifyBooleanAssertion,Refactorings - Simplifications
+junit.xml/TestClassWithoutTestCases,Naming Conventions
+junit.xml/UnnecessaryBooleanAssertion,Refactorings - Redundancies
+junit.xml/UseAssertEqualsInsteadOfAssertTrue,Best Practices
+junit.xml/UseAssertNullInsteadOfAssertTrue,Best Practices
+junit.xml/UseAssertSameInsteadOfAssertTrue,Best Practices
+junit.xml/UseAssertTrueInsteadOfAssertEquals,Best Practices
+logging-jakarta-commons.xml,Multiple
+logging-jakarta-commons.xml/GuardDebugLogging,Best Practices
+logging-jakarta-commons.xml/GuardLogStatement,Best Practices
+logging-jakarta-commons.xml/ProperLogger,Best Practices
+logging-jakarta-commons.xml/UseCorrectExceptionLogging,Error Handling
+logging-java.xml,Multiple
+logging-java.xml/AvoidPrintStackTrace,Error Handling
+logging-java.xml/GuardLogStatementJavaUtil,Best Practices
+logging-java.xml/LoggerIsNotStaticFinal,Best Practices
+logging-java.xml/MoreThanOneLogger,Best Practices
+logging-java.xml/SystemPrintln,Best Practices
+migrating.xml,Migration
+migrating.xml/AvoidAssertAsIdentifier,Migration
+migrating.xml/AvoidEnumAsIdentifier,Migration
+migrating.xml/ByteInstantiation,Migration
+migrating.xml/IntegerInstantiation,Migration
+migrating.xml/JUnit4SuitesShouldUseSuiteAnnotation,Migration
+migrating.xml/JUnit4TestShouldUseAfterAnnotation,Migration
+migrating.xml/JUnit4TestShouldUseBeforeAnnotation,Migration
+migrating.xml/JUnit4TestShouldUseTestAnnotation,Migration
+migrating.xml/JUnitUseExpected,Migration
+migrating.xml/LongInstantiation,Migration
+migrating.xml/ReplaceEnumerationWithIterator,Migration
+migrating.xml/ReplaceHashtableWithMap,Migration
+migrating.xml/ReplaceVectorWithList,Migration
+migrating.xml/ShortInstantiation,Migration
+migrating_to_13.xml,Migration
+migrating_to_14.xml,Migration
+migrating_to_15.xml,Migration
+migrating_to_junit4.xml,Migration
+naming.xml,Naming Conventions
+naming.xml/AbstractNaming,Naming Conventions
+naming.xml/AvoidDollarSigns,Naming Conventions
+naming.xml/AvoidFieldNameMatchingMethodName,Naming Conventions
+naming.xml/AvoidFieldNameMatchingTypeName,Naming Conventions
+naming.xml/AvoidNonConstructorMethodsWithClassName,Naming Conventions
+naming.xml/BooleanGetMethodName,Naming Conventions
+naming.xml/ClassNamingConventions,Naming Conventions
+naming.xml/ConstantNamingConventions,Naming Conventions
+naming.xml/ConstructorWithNameAsEnclosingClass,Naming Conventions
+naming.xml/GenericsNaming,Naming Conventions
+naming.xml/LongVariable,Naming Conventions
+naming.xml/MethodNamingConventions,Naming Conventions
+naming.xml/MethodWithSameNameAsEnclosingClass,Naming Conventions
+naming.xml/MisleadingVariableName,Naming Conventions
+naming.xml/NoPackage,Naming Conventions
+naming.xml/PackageCase,Naming Conventions
+naming.xml/ShortClassName,Naming Conventions
+naming.xml/ShortMethodName,Naming Conventions
+naming.xml/ShortVariable,Naming Conventions
+naming.xml/SuspiciousConstantFieldName,Naming Conventions
+naming.xml/SuspiciousEqualsMethodName,Naming Conventions
+naming.xml/SuspiciousHashcodeMethodName,Naming Conventions
+naming.xml/VariableNamingConventions,Naming Conventions
+optimizations.xml,Multiple
+optimizations.xml/AddEmptyString,Best Practices
+optimizations.xml/AvoidArrayLoops,Best Practices
+optimizations.xml/AvoidInstantiatingObjectsInLoops,Best Practices
+optimizations.xml/LocalVariableCouldBeFinal,Best Practices
+optimizations.xml/MethodArgumentCouldBeFinal,Best Practices
+optimizations.xml/PrematureDeclaration,Refactorings - Redundancies
+optimizations.xml/RedundantFieldInitializer,Refactorings - Redundancies
+optimizations.xml/SimplifyStartsWith,Best Practices
+optimizations.xml/UnnecessaryWrapperObjectCreation,Refactorings - Redundancies
+optimizations.xml/UseArrayListInsteadOfVector,Best Practices
+optimizations.xml/UseArraysAsList,Best Practices
+optimizations.xml/UseStringBufferForStringAppends,Best Practices
+strictexception.xml,Error Handling
+strictexception.xml/AvoidCatchingGenericException,Error Handling
+strictexception.xml/AvoidCatchingNPE,Error Handling
+strictexception.xml/AvoidCatchingThrowable,Error Handling
+strictexception.xml/AvoidLosingExceptionInformation,Error Handling
+strictexception.xml/AvoidRethrowingException,Error Handling
+strictexception.xml/AvoidThrowingNewInstanceOfSameException,Error Handling
+strictexception.xml/AvoidThrowingNullPointerException,Error Handling
+strictexception.xml/AvoidThrowingRawExceptionTypes,Error Handling
+strictexception.xml/DoNotExtendJavaLangError,Error Handling
+strictexception.xml/DoNotThrowExceptionInFinally,Error Handling
+strictexception.xml/ExceptionAsFlowControl,Error Handling
+strictexception.xml/SignatureDeclareThrowsException,Error Handling
+strings.xml,Multiple
+strings.xml/AppendCharacterWithChar,Best Practices
+strings.xml/AvoidDuplicateLiterals,Refactorings - Redundancies
+strings.xml/AvoidStringBufferField,Best Practices
+strings.xml/ConsecutiveAppendsShouldReuse,Best Practices
+strings.xml/ConsecutiveLiteralAppends,Best Practices
+strings.xml/InefficientEmptyStringCheck,Best Practices
+strings.xml/InefficientStringBuffering,Best Practices
+strings.xml/InsufficientStringBufferDeclaration,Best Practices
+strings.xml/StringBufferInstantiationWithChar,Best Practices
+strings.xml/StringInstantiation,Best Practices
+strings.xml/StringToString,Refactorings - Redundancies
+strings.xml/UnnecessaryCaseChange,Best Practices
+strings.xml/UseEqualsToCompareStrings,Logic
+strings.xml/UseIndexOfChar,Best Practices
+strings.xml/UselessStringValueOf,Refactorings - Redundancies
+strings.xml/UseStringBufferLength,Best Practices
+sunsecure.xml,Multiple
+sunsecure.xml/ArrayIsStoredDirectly,Best Practices
+sunsecure.xml/MethodReturnsInternalArray,Interface
+typeresolution.xml,Multiple
+typeresolution.xml/CloneMethodMustImplementCloneable,Interface
+typeresolution.xml/LooseCoupling,Best Practices
+typeresolution.xml/SignatureDeclareThrowsException,Error Handling
+typeresolution.xml/UnusedImports,Code Structure
+unnecessary.xml,Refactorings - Redundancies
+unnecessary.xml/UnnecessaryConversionTemporary,Refactorings - Redundancies
+unnecessary.xml/UnnecessaryFinalModifier,Refactorings - Redundancies
+unnecessary.xml/UnnecessaryReturn,Refactorings - Redundancies
+unnecessary.xml/UnusedNullCheckInEquals,Refactorings - Redundancies
+unnecessary.xml/UselessOperationOnImmutable,Refactorings - Redundancies
+unnecessary.xml/UselessOverridingMethod,Refactorings - Redundancies
+unnecessary.xml/UselessParentheses,Refactorings - Redundancies
+unusedcode.xml,Refactorings - Redundancies
+unusedcode.xml/UnusedFormalParameter,Refactorings - Redundancies
+unusedcode.xml/UnusedLocalVariable,Refactorings - Redundancies
+unusedcode.xml/UnusedModifier,Refactorings - Redundancies
+unusedcode.xml/UnusedPrivateField,Refactorings - Redundancies
+unusedcode.xml/UnusedPrivateMethod,Refactorings - Redundancies
